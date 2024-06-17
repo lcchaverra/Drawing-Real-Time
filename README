@@ -1,7 +1,7 @@
-# Dibujo en Tiempo Real - Real Time Drawing
+#Dibujo en Tiempo Real - Real Time Drawing
 
 Esta es una aplicacion hecha como practica de node js con socket.io, donde la finalidad fue crear una pizarra de dibujo en tiempo real para multiples usuarios
 
-## Ejecución en Local
+##Ejecución en Local
 - Realiza la intalacion de las dependencias utilizadas en el proyecto con el comando "npm install"
 - Para ejecutar este proyecto de manera local debes de utilizar el comando "npm run server" luego de haber instalado todas las dependencias
