@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>App de dibujo</title>
+</head>
+<body>
+    <h1>App de Dibujo</h1>
+    <div class="content">
+        <div class="users_connected" id="users_counter">Usuarios Conectados: 0</div>
+        <div class="colors">
+            <button class="color1" onclick="changeColor('red')"></button>
+            <button class="color2" onclick="changeColor('green')"></button>
+            <button class="color3" onclick="changeColor('blue')"></button>
+            <button class="color4" onclick="changeColor('yellow')"></button>
+            <button class="color5" onclick="changeColor('black')"></button>
+            <button id="clear" onclick="deleteDrawing()">Limpiar</button>
+        </div>
+        <canvas id="canvas" class="canvas"></canvas>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
